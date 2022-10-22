@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<section class="header" id="Home">
+		<nav>
+			<a href="index.html"><img src="4.png"></a>
+			<div class="nav">
+				<ul>
+					<li><a href="#Home">Home</a></li>
+					<li><a href="#about">About me</a></li>
+					<li><a href="#Experience">Experience</a></li>
+					<li><a href="#Contacts">Contacts</a></li>
+				</ul>
+			</div>
+		</nav>
+	</section>
+		
+<div class="text-box">
+	<h2>Hi, I am Sabin Dhakal, a CsIT Student at CGIM.</h2>
+	<a href="index.html"></a>	
+</div>
+	</section>
+	<section class="course" id="about">
+		<h1>About me</h1>
+		<div class="row">
+			<div class="course-col">
+				<h3>-MY BACKGROUND</h3>
+				<pre>
+I am from Tanahun and currently residing in Kathmandu. I like editing photos
+and videos, programming and web development.I've always been passionate
+about technology, therefore, i choose BSc.IT course for my bachelors degree
+to further my knowledge about the current and upcoming technology in general.
+I am an enthusiastic, self-motivated,responsible and hard working person.
+I always seek to achieve a high standard in whatever work I undertake.
+I am keen to obtain new skills and training and have a flexible approach
+to all work situations, and find it easy to adapt.I can work unsupervised
+alone or as a member of a team and I like to use my skills to make a positive 
+contribution to the workforce.
+
+			  <pre>
+			</div>
+		<div class="course-col">
+				<h3>-SKILLS</h3>
+				<img src="5.jpg" height="100px" width="100px">
+				<pre>
+Leadership
+Communication
+Critical thinking
+Problem solving
+Creativity
+Responsibility</pre>
+		</div>
+	</section>
+	<section class="Experience" id="Experience">
+		<h1>Education</h1>
+		<div class="rows">
+			<div class="Experience-col">
+					<pre>
+<h5>HIGHER SECONDARY LEVEL</h5>
+CG Institute of Management
+-Currently,I am enrolled in CGIM persuing Bsc(HOns).IT 
+
+
+<h5>SECONDARY LEVEL</h5>
+Trinity International College/2076-2078 B.S
+-I completed my secondary level education from Trinity collge with Science Faculty.
+
+
+<h5>PRIMARY SCHOOL</h5>
+ELIPSS SCHOOL/2065-2075 B.S
+-I completed my primary schooling from ELIPSS SCHOOL,Sorahkhutte,Kathmandu
+
+			</div>
+		</div>
+	</section>
+<section class="contact" id="Contacts">
+		<h1>LETS TALK</h1>
+		<div class="row">
+		<div class="course-col">
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Nepal</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</div>
+<div class="course-col">
+	<div class="container">
+
+				<h3>-Contacts</h3>
+				<pre>
+					We are open to any suggestion or just
+					to have a chat
+
+					Address:
+					-Kavresthali,Kathmandu
+
+					Email:
+					-sabindhakal231@gmail.com
+					-sabin123@gmail.com
+
+					Phone no:
+					-9821675312,987651234
+					-014378234
+
+					Website:
+					sabin-dhakal.hyperphp.com
+</div>
+		</div>
+</div>
+
+	</section>
+<footer>
+	
+<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+<a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+
+
+</footer>
+	</body>
+	 <script>
+        window.addEventListener('scroll',function(){
+        	const header = document.querySelector('.nav');
+            header.classList.toggle("back", window.scrollY > 0);
+        });
+    </script>
+	</html>
